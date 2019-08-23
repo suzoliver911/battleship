@@ -1,5 +1,10 @@
+import { Player } from '../player';
+import { Grid } from '../grid';
+
 describe('Player', () => {
-  test('dummy', () => {
+  test('is active', () => {
+    const player = new Player(new Grid(), 1);
+
     expect(true).toBe(true);
   });
 });

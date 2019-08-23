@@ -4,6 +4,7 @@
   "description": "battleship lab",
   "main": "index.js",
   "scripts": {
+    "copy": "copyfiles src/html/* dist",
     "start": "tsc && node dist/app.js",
     "test": "jest"
   },
@@ -20,6 +21,8 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
+    "choo": "^7.0.0",
+    "copyfiles": "^2.1.1",
     "express": "^4.17.1",
     "tslint-config-prettier": "^1.18.0"
   }
